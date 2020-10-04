@@ -1,0 +1,53 @@
+https://codepen.io/mollybee/pen/jOqjKxN?editors=1100
+
+    1. What is Semantic HTML? Semantic HTML allows us to add structure to the web pages content, in a way the provides meaning and a clearer understanding to the different pieces of information. 
+    2. What is HTML used for? HTML is used to give structure, or a skeleton, to the webpage. 
+    3. What is an attribute and where do we put it? An attribute gives more specific information about an element. An attribute is written right in the start tag after the tag name.
+    4. What is the h1 tag used for? The H1 tag puts the most definitive text, and most important description of the page as a title of sorts.   How many times should I use it on a page? The H1 tag is only used once on a page.
+    5. Name two tags that have required attributes. Two tags with required attributes are <img src> and <a href>
+    6. What do we put in the head of our HTML document? The <title> of the webpage, links to stylesheets, javascript external files, and other meta-data concerning the page.
+    7. What is an id? An id a CSS selector.
+    8. What elements can I add an id to? Any element.
+    9. How many times can I use the same id on a page? An id can only be used on one element. An id is specific to one element and only one.
+    10. What is a class? A class is a CSS selector.
+    11. What elements can I add a class to? A class can be applied to any elements.
+    12. How many times can I use the same class on a page? A class can be applied to multiple different elements; as well as an element can have multiple classes.
+    13. How do I get my link to open in a new tab? Right-click --> "Open link in new tab"
+    14. What is the alt attribute in the image tag used for? The 'alt' attribute gives an alternate description of the image. 
+    15. How do I reference an id? You refrence an id with #. 
+    16. What is the difference between a section and a div? <Section> refers to a group of elements that all pertain to the same style or theme. <Div> is not semantic, and does not have any meaning to it in itself, but just that it serves as a container to wrap around content.
+    17. What is CSS used for? CSS is used to add style and aesthetic to the webpage.
+    18. How to we select an element? Example - every h2 on the page. We select and element such as h2 like so: .h2
+    19. What is the difference between a class and an id? - The difference is a class can be applied to multiple elements, whereas an id can only be applied to a single element. An Id may be usedful for just the H1 heading, as it is the only element of it's kind. Whereas a class might be applied to ALL of the 'p' elements to style all of the paragraphs uniformly. 
+    20. How do we select classes in CSS? We select class in css with '.' 
+    21. How do we select a p element with a single class of “human””? <p class='human'>Text</p>
+    22. What is a parent child selector? When would this be useful? A parent/child selector is referring to elements nested within other elements. This may be used when making a specific list <ul><li></li></ul>. They select all elements directly inside a certain element.
+    23. How do you select all links within a div with the class of sidebar? .sidebar a href {}
+    24. What is a pseudo selector? A pseudo selector is a keyword changes the state of selector, example: .button:hover {}
+    25. What do we use the change the spacing between lines? Change line spacing by setting a margin.
+    26. What do we use to change the spacing between letters? Change spacing between letters with letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? Use text-transform: for all three, uppercase; lowercase; or capitalize;
+    28. How do I add a 1px border around my div that is dotted and black? .div { border: 1px; border-style: dotted; border-color: black;}
+    29. How do I select everything on the page? * {}
+    30. How do I write a comment in CSS? /* Single-line comment */
+    31. How do I find out what file I am in, when I am using the command line? pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm [file] deletes a file from a directory. You cannot delete a file or directory while you are currently in it, so you must be sure to cd .. up one directory to be able to successful remove a file. Also, you must either enter a more specific git command to delete a directory that is not empty, or be sure to delete the files within the directory first.
+    34. Why should I use version control? Version control allows a user to save their work at various points in their project, so as to have previous points in their work of which to revert back. 
+    35. How often should I commit to github? Commit often, because this allows you to save a various stages in your work, which is the goal of version control; being able to revert back to previous points of work.
+    36. What is the command we would use to push our repo up to github? push
+    37. Walk me through Lambda's git flow. 
+            Fork the working repository, copy the URL on github and paste it into the terminal after you've types git clone. (This clones the files onto your local computer).
+            'cd' into a new directory and use git checkout [branch name] to create your own branch.
+            Make changes to the coding project.
+            Commit these changes often (this is the version control). 
+                git add 
+                git commit -m 'a message'
+                git push origin -u molly-brown
+            When you are ready to push your changes to your branch: complete these git commands -->
+                git add 
+                git commit -m 'a message'
+                git push
+            Create a Pull-Request to submit my work: using my own student fork as the base.
+
+            *You can check the status of your files by typing 'git status', to be sure all the changes you've made are staged and ready to be committed.
